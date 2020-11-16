@@ -1,11 +1,5 @@
-"""
-注意: 変数名に型を**明示的**に追加しています．
-"""
+# python2-1 #
+hensu_int = 25 #数字(int型)で変数に代入する
 
-hensu_int=10
-print(type(hensu_int))
-print(hensu_int)
-
-hensu_str=str(hensu_int)
-print(type(hensu_str))
-print(hensu_str)
+print(hensu_int) #標準出力
+print(type(hensu_int)) #type関数で型を見ることができる
